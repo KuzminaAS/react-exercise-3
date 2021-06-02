@@ -1,0 +1,10 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+
+.wrapper {
+	@include flex(center, center);
+	padding-top: 150px;
+}
+.title {
+	@include font(50px, 900, 60px);
+}

@@ -1,0 +1,41 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+
+.title {
+	@include font(36px, 500, 48px);
+	color: $primary-text-color;
+}
+.text {
+	@include font;
+	color: $third-text-color;
+	padding-top: 16px;
+	padding-bottom: 80px;
+}
+.list {
+	padding-bottom: 116px;
+}
+.item {
+	position: relative;
+	@include flex(space-between, flex-end);
+	&:nth-child(1) {
+		padding-top: 123px;
+		padding-bottom: 130px;
+	}
+	&:nth-child(3) {
+		padding-top: 91px;
+		padding-bottom: 91px;
+	}
+	&:nth-child(5) {
+		padding-top: 133px;
+	}
+}
+.content {
+	width: 445px;
+}
+.btn_container {
+	position: absolute;
+	&:not(:last-child) {
+		display: none;
+	}
+	right: 450px;
+}

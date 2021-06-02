@@ -1,0 +1,11 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+
+.logo {
+	text-decoration: none;
+	margin-right: 35px;
+}
+.text {
+	@include font(26px, 900, 38px);
+	color: $logo-color;
+}

@@ -1,0 +1,17 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+
+.nav_list {
+	@include flex;
+}
+.nav_item {
+	padding-right: 30px;
+	&:last-child {
+		padding-right: 0;
+	}
+}
+.link {
+	text-decoration: none;
+	@include font;
+	color: $third-text-color;
+}

@@ -1,0 +1,15 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+.btn {
+	background-color: $bg-btn-color;
+	border-color: transparent;
+	border-radius: 2px;
+	cursor: pointer;
+	width: 160px;
+	height: 26px;
+	padding: 4px 0;
+	color: #ffffff;
+	font-family: inherit;
+	@include font(12px, 500, 0);
+	text-transform: capitalize;
+}

@@ -1,0 +1,32 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+
+.container {
+	background-color: $bg-color-secondary;
+}
+.content_footer {
+	@include flex(space-between, baseline);
+	padding-top: 68px;
+}
+.wrapper_footer {
+	@include flex(space-between, baseline);
+	padding-bottom: 32px;
+}
+.copyright {
+	@include font;
+	color: #939ea4;
+	padding-bottom: 47px;
+}
+.line {
+	color: #cdd1d4;
+	margin-bottom: 20px;
+}
+.list_links {
+	@include flex;
+}
+.list_item {
+	padding-right: 30px;
+	&:last-child {
+		padding-right: 0;
+	}
+}

@@ -1,0 +1,8 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+
+.navbar_row {
+	@include flex(space-between, center);
+	padding-top: 18px;
+	padding-bottom: 18px;
+}

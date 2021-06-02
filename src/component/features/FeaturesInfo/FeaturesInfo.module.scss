@@ -1,0 +1,21 @@
+@import "src/shared/styles/base.scss";
+@import "src/shared/styles/style.scss";
+
+.list {
+	@include flex(space-between, center);
+}
+.item {
+	&:nth-child(2) {
+		margin-left: 30px;
+	}
+}
+.title {
+	@include font;
+	color: $primary-text-color;
+	padding-top: 14px;
+}
+.text {
+	@include font(12px, 400, 18px);
+	color: #5d6970;
+	padding-top: 6px;
+}
